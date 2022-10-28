@@ -1,0 +1,21 @@
+.onePiece {
+  width: calc((100% - 10px) / 3);
+  height: calc((100% - 10px) / 3);
+  border-radius: 15px;
+  background-color: #79bb96;
+  color: #ffffff;
+  font-size: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.onePiece:hover {
+  box-shadow: 0px 0px 10px 3px rgb(89, 84, 84);
+  cursor: pointer;
+}
+.X {
+  background-color: #ae9dcf;
+}
+.O {
+  background-color: #9bb4e2;
+}

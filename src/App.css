@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  text-align: center;
+}
+header {
+  background-color: palevioletred;
+  padding: 10px 20px;
+}
+header h1 {
+  color: #fff;
+}

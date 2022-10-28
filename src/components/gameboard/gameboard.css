@@ -1,0 +1,52 @@
+.gameBoard {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+  align-content: Space-between;
+}
+.showRes::before {
+  margin: 0 auto 20px;
+  display: flex;
+  background: #a278a9;
+  opacity: 0.8;
+  content: "";
+  width: 400px;
+  height: 400px;
+  border-radius: 15px;
+  z-index: 1024;
+  position: absolute;
+}
+.res {
+  content: "";
+  width: 400px;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  z-index: 1024;
+  position: absolute;
+  font-size: 35px;
+  content: "";
+  z-index: 1025;
+  position: absolute;
+}
+.res span {
+  color: #fff;
+}
+.btn {
+  display: flex;
+  border: none;
+  border-radius: 15px;
+  padding: 15px;
+  background-color: #e91e63;
+  color: #fff;
+  font-weight: bold;
+  font-size: 20px;
+  margin: 10px auto;
+  cursor: pointer;
+}
